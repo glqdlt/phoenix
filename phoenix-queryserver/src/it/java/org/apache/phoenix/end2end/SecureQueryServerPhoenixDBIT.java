@@ -74,7 +74,7 @@ import com.google.common.collect.Maps;
  */
 @Category(NeedsOwnMiniClusterTest.class)
 public class SecureQueryServerPhoenixDBIT {
-    private static enum Kdc {
+    private enum Kdc {
       MIT,
       HEIMDAL;
     }
